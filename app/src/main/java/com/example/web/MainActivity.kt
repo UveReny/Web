@@ -12,4 +12,8 @@ class MainActivity : AppCompatActivity() {
         val webView : WebView = findViewById(R.id.webView)
         webView.loadUrl("https://www.example.com")
     }
+
+    fun getSearchUrl(query: String): String? {
+        return ""
+    }
 }
